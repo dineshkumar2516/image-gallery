@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>css image </title>
+	<meta charset="UTF-8">
+	<meta viewport="width=device-width,initial-scale=0.1">
+	<style>
+		*{
+			padding:0%;
+			margin:0%;
+			box-sizing:border-box;
+		}
+		#img-section{
+			background-color:pink;
+			padding:5%;
+			
+		}
+		#img-box{
+			display:flex;
+			flex-wrap:wrap;
+			margin:auto;
+			width:85%;
+			height:100%;
+			background-color:lightblue;
+			padding:10px;
+			box-shadow:20px 20px 22px;
+		}
+		img{
+			width:33%;
+			padding:1%;
+			
+			
+		}
+		#img1{
+			height:250px;	
+		}
+		
+		#img2{
+			height:250px;
+		}
+		#img3{
+			height:250px;
+		}
+		#img4{
+			height:250px;
+		}
+		#img5{
+			height:250px;
+		}
+		#img6{
+			height:250px;
+		}
+		
+		#img-box h1{
+			text-align:center;
+			font-size:3em;
+			padding-bottom:50px;
+			padding-top:20px;
+			width:100%;
+		}
+		
+		h1:hover+#img-col{
+			display:block;
+		}
+		
+	</style>
+</head>
+<body>
+<section id="img-section">
+	
+	<div id="img-box">
+		<h1>Image Gallery</h1>
+		<div id="img-col">
+		<img id="img1" src="pic 3.jpg">
+		<img id="img2" src="pic 4.jpg">
+		<img id="img3" src="pic 5.jpg">
+		<img id="img4" src="pic 6.jpg">
+		<img id="img5" src="pic 7.jpg">
+		<img id="img6" src="pic 8.jpg">
+		</div>
+	</div>
+</section>
+</body>
+</html>
